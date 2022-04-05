@@ -10,33 +10,6 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 TOKEN = os.environ['DISCORD_TOKEN']
 
-names_our = [{'id': 'nft-worlds', 'symbol': 'wrld', 'name': 'NFT Worlds', 'grugs': ['Flo86.thor']},
- {'id': 'treasure-under-sea', 'symbol': 'tus', 'name': 'Treasure Under Sea', 'grugs': ['SOLSURFER']},
- {'id': 'crabada', 'symbol': 'cra', 'name': 'Crabada', 'grugs': ['SOLSURFER']},
- {'id': 'lords', 'symbol': 'lords', 'name': 'LORDS', 'grugs': ['loothero', 'irislxy08', 'Valevale', 'MM.']},
- {'id': 'magic', 'symbol': 'magic', 'name': 'Magic', 'grugs': ['Xen0ph0n.eth', 'Octavian']},
- {'id': 'rainbow-token-2', 'symbol': 'rbw', 'name': 'Rainbow Token', 'grugs': ['Grugga Morwong']},
- {'id': 'unicorn-milk', 'symbol': 'unim', 'name': 'Unicorn Milk', 'grugs': ['TheGenji']},
- {'id': 'xpendium', 'symbol': 'xpnd', 'name': 'Xpendium', 'grugs': ['yassel']},
- {'id': 'verse', 'symbol': 'verse', 'name': 'Verse', 'grugs': ['beerbuddha']},
- {'id': 'immutable-x', 'symbol': 'imx', 'name': 'Immutable X', 'grugs': ['CryptoPwned', 'TheHemporer [GrugLove]', 'sandwichboss', 'drw', 'Aitch ridler']},
- {'id': 'illuvium', 'symbol': 'ilv', 'name': 'Illuvium', 'grugs': ['oki']},
- {'id': 'gods-unchained', 'symbol': 'gods', 'name': 'Gods Unchained', 'grugs': ['syn', 'Kolya']},
- {'id': 'splinterlands', 'symbol': 'sps', 'name': 'Splinterlands', 'grugs': ['BenZ']},
- {'id': 'dark-energy-crystals', 'symbol': 'dec', 'name': 'Dark Energy Crystals', 'grugs': ['BenZ']},
- {'id': 'decentral-games-ice', 'symbol': 'ice', 'name': 'Decentral Games ICE', 'grugs': ['Tondy']},
- {'id': 'metis-token', 'symbol': 'metis', 'name': 'Metis Token', 'grugs': ['hc188', '0M1k']},
- {'id': 'skale', 'symbol': 'skl', 'name': 'SKALE', 'grugs': ['Firefreeze', 'JaimeS']},
- {'id': 'crypto-raiders', 'symbol': 'raider', 'name': 'Crypto Raiders', 'grugs': ['hrpoonloue']},
- {'id': 'layer2dao', 'symbol': 'l2dao', 'name': 'Layer2DAO', 'grugs': ['Aralekor']},
- {'id': 'axie-infinity', 'symbol': 'axs', 'name': 'Axie Infinity', 'grugs': ['Astronghippo']},
- {'id': 'dydx', 'symbol': 'dydx', 'name': 'dYdX', 'grugs': ['wavesurferXBT']},
- {'id': 'loopring', 'symbol': 'lrc', 'name': 'Loopring', 'grugs': ['Shochu | KurateDAO', 'Ram']},
- {'id': 'omisego', 'symbol': 'omg', 'name': 'OMG Network', 'grugs': ['xoxoxd']},
- {'id': 'zkspace', 'symbol': 'zks', 'name': 'ZKSpace', 'grugs': ['rblazin']},
- {'id': 'cartesi', 'symbol': 'ctsi', 'name': 'Cartesi', 'grugs': ['maq']},
- {'id': 'iotex', 'symbol': 'iotx', 'name': 'IoTeX', 'grugs': ['TheHemporer [GrugLove]']}]
-
 data_start = {}
 for name in names_our:
     idd = name["id"]
